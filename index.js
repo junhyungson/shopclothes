@@ -7,12 +7,9 @@ var content = document.getElementById("mcontents");
 bg1.addEventListener("click", function(){
 	main.style.display= "block";
 	content.style.backgroundImage ="url(imgs/gears/h1.png)";
-	content.style.backgroundImage ="url(imgs/gears/h2.png)";
-	content.style.backgroundImage ="url(imgs/gears/h3.png)";
 	content.style.backgroundSize = "cover";
-	content.style.backgroundPosition= "center center";
-	content.style.display ="inline-block";
-	 
+	content.style.backgroundPosition ="center center"; 
+ 
 });
 
 
